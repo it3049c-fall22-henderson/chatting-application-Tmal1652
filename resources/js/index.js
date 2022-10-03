@@ -88,3 +88,8 @@ sendButton.addEventListener("click", function(sendButtonClickEvent) {
   sendMessages(sender,message);
   myMessage.value = "";
 });
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
